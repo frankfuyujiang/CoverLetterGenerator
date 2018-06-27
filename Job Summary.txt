@@ -1,0 +1,37 @@
+Job Summary
+
+Opportunity Background
+
+Ready to demonstrate your marketing analytics and data sciences prowess? Two great opportunities to stretch your skills and experience to their fullest potential. One is for a full-time contract position and the other is a contract-to-hire role. Both positions are for a top brand, fortune 500 company in Silicon Valley. You'll have access to large B2B and B2C data sets on a robust analytic platform. Customer and account data is enriched with demographics and firmagraphics, transactional purchase history, Web behavior and cross-channel marketing campaign history. Tools and analytic environment include SAS, Tableau, and well-managed MPP RDBMS, Hadoop & Hive. This position has a reasonable work-load, providing a decent work-life balance and won’t burn you to a crisp like other Valley gigs.
+
+Skills & Experience
+
+You should have 3-5 years background in developing predictive modeling algorithms using Python/R, along with other tools in the Apache Big Data stack. You should be well-versed in machine learning algorithms – which is best for achieving business/analytic objectives: Bayesian, Regression, Decision Tree, Clustering & Neural Networks. You should be familiar with common marketing models: cross-sell, campaign response, churn, lifetime value. Finally, you'll need to have experience in deploying these models into a marketing environment.
+
+Education & Eligibility:
+
+Bachelor of Science in Computer Science, Statistics or relevant degree
+MS Degree preferred
+Must be eligible to work in the U.S.
+Must be able to work onsite at least 80%
+Compensation & Benefits:
+
+Competitive hourly rate or salary provided based on experience
+The full-time role will have full benefits package (healthcare, 401k, 10 days PTO)
+Contract position also gets 1.2 PTO days per month
+Job Type: Contract
+
+Salary: $12,000.00 to $15,000.00 /month
+
+Experience:
+
+Predictive Modeling: 3 years
+Education:
+
+Master's
+Location:
+
+Palo Alto, CA 94304
+Required work authorization:
+
+United States
