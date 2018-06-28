@@ -12,9 +12,17 @@ data = state_union.raw(dirpath)
 
 #initialize utilities
 lemma = nltk.wordnet.WordNetLemmatizer()
+ps=PorterStemmer()
 stop_words = set(stopwords.words("english"))
-mystop_words=["\'ll","position","work","job","role","year","valley","skill","day","summary","must"]
+mystop_words=["\'ll","position","work","job","role","year","valley","skill","day","summary","must","salary",'ready','great','enriched','include','top','position','500','fortune','large','set','include','reasonable','providing','decent','like','using','along',]
 jobDesStopWords=stop_words.union(mystop_words)
+
+weighedKeyWords = {'python':10}
+template={'experience':["I worked at SAP for almost 3 years. While working there, I worked with fortune 500 companies like Coca-cola as a development support engineer by helping them with customization and consulting issues. "],\
+			'data':"In my academic years, I completed many projects involving data cleansing, plotting, simulation and extrapolation using Matlab and Python",\
+			"I obtained my certificate offered by Microsoft in \"Programming with Python for Data Science\" where I practiced with real datasets and real problem and achieved 91\% upon obtaining the certificate"],\
+			'analytic':"I also applied data analysis to the sales data of a local business I owned and came up with new promotion based on the model. This new strategy has led to a 30\% increment in the monthly revenue",\
+			'degree':"I graduated from Queen's University in Canada with a degree of Specialization in Biomedical Computing",\}
 
 #tokenize into sentences and then words
 sents = sent_tokenize(data)
@@ -24,16 +32,20 @@ for s in sents:
 
 #filter words 
 filtered_words = []
-unlemmatized = []
 words = [w.lower() for w in words]
 for w in words:
+	w = lemma.lemmatize(w);
 	if w not in string.punctuation and w not in jobDesStopWords:
-		unlemmatized.append(w)
-		filtered_words.append(lemma.lemmatize(w))
+		filtered_words.append(w)
 #print (unlemmatized)
 #print(filtered_words)
 
 fdist = FreqDist(filtered_words)
-top_ten = fdist.most_common(60)
+top_200 = fdist.most_common(200)
 
-print(top_ten)
+
+print(top_200)
+test=['abc','bcd'];
+test.extend(['efg']*10);
+print(test)
+
