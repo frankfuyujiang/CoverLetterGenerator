@@ -44,12 +44,12 @@ fdist = FreqDist(filtered_words)
 top_200 = fdist.most_common(200)
 
 
-
+'''
 print(top_200)
 test=['abc','bcd'];
 test.extend(['efg']*10);
 print(test)
-
+'''
 name=input('What is your name? ')
 jobPosition=input('What is your job position? ')
 companyName=input('What is the company\'s name? ')
